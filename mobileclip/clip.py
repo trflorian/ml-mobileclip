@@ -14,7 +14,7 @@ from mobileclip.text_encoder import (
     TextTransformer,
 )
 
-from .image_encoder import MCi
+from mobileclip.image_encoder import MCi
 
 
 class CLIP(nn.Module):
